@@ -1,0 +1,53 @@
+
+@media (max-width: 430px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+  }
+
+  .card-01,
+  .card-02,
+  .card-03,
+  .card-04,
+  .card-05 {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+
+  .frase-inicial,
+  .descricao,
+  .frase-card-02,
+  .descricao-card-02,
+  .titulo-card-03,
+  .descricao-card-03,
+  .titulo-card-04,
+  .descricao-card-04,
+  .frase-card-05,
+  .descricao-card-05 {
+    width: 100%;
+    font-size: 16px;
+    margin: 10px 0;
+  }
+
+  .icone {
+    display: none;
+  }
+
+  .perfil-Daniel,
+  .perfil-Jonathan,
+  .perfil-jeanette,
+  .perfil-patrick,
+  .perfil-kira {
+    width: 40px;
+    height: 40px;
+  }
+  .card-01 { order: 1; }
+  .card-02 { order: 2; }
+  .card-04 { order: 3; }
+  .card-05 { order: 4; }
+  .card-03 { order: 5; } 
+}
+
